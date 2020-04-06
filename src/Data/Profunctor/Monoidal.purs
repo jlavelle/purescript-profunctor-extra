@@ -1,6 +1,6 @@
 module Data.Profunctor.Monoidal where
 
-import Prelude
+import Prelude hiding ((&&), (||))
 
 import Control.Alt (class Alt, (<|>))
 import Control.Alternative (class Alternative, empty)
